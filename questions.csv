@@ -1,0 +1,16 @@
+﻿question,optionA,optionB,optionC,optionD,correctIndex
+在 p5.js 中，哪一個指令可以建立畫布？,createCanvas(),makeCanvas(),newCanvas(),canvasCreate(),0
+在 p5.js 中，哪一個指令可以設定畫布的背景顏色？,fill(),background(),stroke(),colorCanvas(),1
+"ellipse(100, 100, 50, 50) 會畫出哪一種圖形？",矩形,三角形,圓形或橢圓形,直線,2
+在 p5.js 中，哪一個函式會在滑鼠被按下時執行？,mousePressed(),mouseClickedOnly(),whenMouseDown(),pressMouse(),0
+"rect(20, 30, 100, 60) 中的四個數字通常代表什麼？",顏色與透明度,x、y、寬度、高度,四個角的角度,速度與方向,1
+p5.js 中，哪一個函式通常負責設定畫布大小？,setupSize(),canvasSize(),createCanvas(),sizeCanvas(),2
+哪一個函式可以設定圖形內部的填色？,fill(),stroke(),line(),noFillColor(),0
+哪一個函式可以設定圖形外框的顏色？,background(),stroke(),fill(),outlineColor(),1
+"line(10, 20, 80, 90) 會繪製什麼？",圓形,矩形,直線,文字,2
+在 p5.js 中，哪個函式會持續重複執行來繪製動畫？,start(),repeat(),animate(),draw(),3
+哪個函式通常用來設定圖形外框的粗細？,strokeWeight(),lineSize(),borderWidth(),weightStroke(),0
+要在畫布上顯示文字，通常使用哪個函式？,write(),text(),printText(),showWords(),1
+在 p5.js 中，mouseX 代表什麼？,滑鼠按下次數,畫布高度,滑鼠目前的水平座標,滑鼠移動速度,2
+哪個函式可以讓後續圖形不顯示填色？,noStroke(),clearFill(),emptyColor(),noFill(),3
+在 p5.js 中，哪個函式可以繪製一個點？,point(),dotDraw(),makePoint(),pixelPoint(),0

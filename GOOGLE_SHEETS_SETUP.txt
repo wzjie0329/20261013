@@ -1,0 +1,12 @@
+Google 試算表題庫設定說明
+
+本專案已設定為直接讀取你提供的 Google 試算表 CSV 發布網址，不再讀取本機 questions.csv。
+
+CSV 網址已設定於 sketch.js 的 GOOGLE_SHEET_CSV_URL。若更換題庫工作表，請將新的「發布至網路」CSV 網址貼到該常數。
+
+欄位名稱必須完全符合：
+question, optionA, optionB, optionC, optionD, correctIndex
+
+correctIndex 使用 0、1、2、3，分別代表 optionA、optionB、optionC、optionD。每次網站載入及按「重新開始」時都會重新讀取 CSV，並從有效題目中隨機抽出 5 題。老師更新試算表後，學生按「重新開始」即可載入最新題庫。
+
+請確認 Google 試算表已透過「檔案 → 共用 → 發布至網路」發布為 CSV，並可公開讀取。建議使用 VS Code Live Server 或網站伺服器執行，不要直接雙擊 index.html。保留原本的 libraries 資料夾。
